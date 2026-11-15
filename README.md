@@ -12,7 +12,7 @@ BCCK_PPPTPMHDT/
 ├── SQL.sql             # Script khởi tạo cơ sở dữ liệu và bảng dữ liệu
 ├── .gitignore          # Cấu hình loại trừ các thư mục/tệp không cần đẩy lên Git
 └── README.md           # Tài liệu giới thiệu và hướng dẫn cài đặt
-
+```
 ## ⚙️ Hướng dẫn cài đặt và chạy chương trình
 Mở Folder SourceCode bằng VS code
 ### 1. Yêu cầu hệ thống
