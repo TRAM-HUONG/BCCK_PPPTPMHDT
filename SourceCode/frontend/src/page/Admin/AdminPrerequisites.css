@@ -1,0 +1,10 @@
+/* frontend/src/page/Admin/AdminPrerequisites.css */
+.badge-rb {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.badge-rb.TienQuyet { background-color: #fee2e2; color: #dc2626; }
+.badge-rb.HocTruoc { background-color: #fef3c7; color: #d97706; }
+.badge-rb.SongHanh { background-color: #e0f2fe; color: #0284c7; }

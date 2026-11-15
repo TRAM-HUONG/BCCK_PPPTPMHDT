@@ -1,0 +1,201 @@
+.trangchu-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 40px;
+}
+
+/* Phần chào mừng */
+.welcome-section {
+  text-align: center;
+  background: linear-gradient(135deg, #e8f5e9 0%, #e3f2fd 100%);
+  padding: 50px 30px;
+  border-radius: 16px;
+  border: 1px solid #c8e6c9;
+  box-shadow: 0 8px 20px rgba(46, 125, 50, 0.05);
+}
+
+.badge-pill {
+  display: inline-block;
+  background-color: #fce4ec;
+  color: #c2185b; /* Điểm nhấn hồng */
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
+.main-title {
+  font-family: serif;
+  color: #1b5e20; /* Xanh lá đậm chủ đạo */
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.sub-title {
+  color: #37474f;
+  font-size: 1.05rem;
+  max-width: 800px;
+  margin: 0 auto 25px auto;
+  line-height: 1.6;
+}
+
+.primary-login-trigger {
+  background: linear-gradient(135deg, #1976d2 0%, #2e7d32 100%); /* Xanh dương pha xanh lá */
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.2);
+}
+
+.primary-login-trigger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(46, 125, 50, 0.3);
+}
+
+/* Phần Tác nhân */
+.actors-section h2 {
+  text-align: center;
+  font-family: serif;
+  color: #0d47a1;
+  margin-bottom: 30px;
+  font-size: 1.6rem;
+}
+
+.actor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.actor-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  border-top: 4px solid #2e7d32;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.actor-card:hover {
+  transform: translateY(-5px);
+}
+
+.actor-icon {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto 15px auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.actor-icon.sv { background: #1976d2; } /* Xanh dương */
+.actor-icon.gv { background: #2e7d32; } /* Xanh lá */
+.actor-icon.ad { background: #ad1457; } /* Hồng đậm điểm nhấn */
+
+.actor-card h3 {
+  color: #263238;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.actor-card p {
+  color: #546e7a;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+/* Modal đăng nhập */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.login-box {
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  width: 400px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border-top: 5px solid #ad1457; /* Điểm nhấn hồng */
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px; right: 15px;
+  background: none; border: none;
+  font-size: 1.5rem; cursor: pointer;
+  color: #888;
+}
+
+.login-box h3 {
+  text-align: center;
+  font-family: serif;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #37474f;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #cfd8dc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.error-msg {
+  color: #c62828;
+  font-size: 0.85rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-submit-btn {
+  width: 100%;
+  padding: 11px;
+  background: #1b5e20;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.login-submit-btn:hover {
+  background: #2e7d32;
+}

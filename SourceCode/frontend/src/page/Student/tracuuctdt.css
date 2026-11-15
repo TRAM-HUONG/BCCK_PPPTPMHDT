@@ -1,0 +1,136 @@
+/* Container chính của trang tra cứu chương trình đào tạo */
+.tracuuctdt-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tracuuctdt-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Form tìm kiếm và lựa chọn chuyên ngành */
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-form label {
+  font-weight: bold;
+  color: #555;
+}
+
+.search-form select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  min-width: 200px;
+  background-color: #fff;
+}
+
+/* Các nút bấm */
+.btn-tracuu {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.btn-tracuu:hover {
+  background-color: #0056b3;
+}
+
+.btn-graph {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.btn-graph:hover {
+  background-color: #218838;
+}
+
+/* Thông báo lỗi */
+.error-msg {
+  color: #dc3545;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* Bảng dữ liệu */
+.table-responsive {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.ctdt-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.ctdt-table th, 
+.ctdt-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.ctdt-table th {
+  background-color: #f1f3f5;
+  color: #333;
+  font-weight: bold;
+}
+
+.ctdt-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Giao diện Modal hiển thị sơ đồ đồ thị liên kết */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  width: 85%;
+  max-width: 800px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  color: #333;
+}
