@@ -23,8 +23,8 @@ Mở Folder SourceCode bằng VS code
 1. Mở **SQL Server Management Studio (SSMS)** và đăng nhập vào SQL Server.
 2. Tạo một cơ sở dữ liệu mới cho dự án.
 3. Mở tệp **`SQL.sql`** của dự án, chọn đúng database vừa tạo và nhấn **Execute (F5)** để khởi tạo các bảng và dữ liệu ban đầu.
-
-### 3. Cài đặt và chạy Backend
+```
+### Cài đặt và chạy Backend
 Mở Terminal và di chuyển vào thư mục `backend`:
 ```bash
 cd BCCK_PPPT/backend
@@ -58,7 +58,7 @@ Khởi chạy server Backend:
 node server.js
 ```
 
-### 4. Cài đặt và chạy Frontend
+### Cài đặt và chạy Frontend
 Mở một cửa sổ Terminal mới (giữ nguyên Terminal của Backend đang chạy) và di chuyển vào thư mục `frontend`:
 ```bash
 cd BCCK_PPPT/frontend
