@@ -1,10 +1,6 @@
-@"
-# Hệ Thống Trợ Lý Lập Kế Hoạch Học Tập Theo Tiên Quyết (BCCK_PPPTPMHDT)
-
-Báo cáo cuối kỳ môn **Phương Pháp Phát Triển Phần Mềm Hướng Đối Tượng**.
 
 
-## 2. Cấu trúc thư mục dự án
+# Cấu trúc thư mục dự án
 ```text
 BCCK_PPPTPMHDT/
 ├── BaoCao/             # Tài liệu báo cáo tổng kết đồ án (.docx)
